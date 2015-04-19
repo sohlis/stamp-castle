@@ -1,0 +1,89 @@
+/* General Classes */
+body {
+  background-color: #FFFDF2;
+  font-family: "franklin-gothic-urw", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.01rem;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: “liga” on;
+  color: #25190B;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+/* End general classes*/
+
+/* Start specific classes*/
+
+.title {
+  margin: 47px 0 40px 0;
+  padding-bottom: 30px;
+  border-bottom: 72px solid #261A0C;
+}
+
+.right {
+  text-align: right;
+}
+
+/* THE GRID */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='third'] {
+  padding-right: 20px;
+}
+[class*='third']:last-of-type {
+  padding-right: 0;
+}
+
+[class*='third'] {
+  float: left;
+}
+
+.a-third {
+  width: 33.33%;
+}
+
+.two-thirds {
+  width: 66.66%;
+}
+
+.three-thirds {
+  width: 100%;
+}
+
+/* END THE GRID
